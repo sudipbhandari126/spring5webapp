@@ -1,7 +1,5 @@
 package sudip.springframework.spring5webapp.model;
 
-import org.springframework.boot.autoconfigure.domain.EntityScan;
-
 import javax.persistence.*;
 import java.util.HashSet;
 import java.util.Set;
@@ -18,7 +16,7 @@ public class Author {
     private String firstName;
     private String lastName;
 
-    @ManyToMany(mappedBy = "authors")
+    @ManyToMany
     private Set<Book> books  = new HashSet<>();
 
     public Author() {

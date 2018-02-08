@@ -1,4 +1,4 @@
-package sudip.springframework.spring5webapp;
+package sudip.springframework;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
