@@ -1,4 +1,4 @@
-package sudip.springframeworkd.spring5webapp;
+package sudip.springframework.spring5webapp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
